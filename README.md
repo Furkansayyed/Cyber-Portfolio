@@ -91,8 +91,8 @@ I am actively looking for **Penetration Testing, VAPT, and Security Engineering*
 
 - **Email:** [sayyedfurkan115@gmail.com](mailto:sayyedfurkan115@gmail.com)
 - **Phone:** +91 7738885888
-- **GitHub:** [@your-github-username](https://github.com/)
-- **TryHackMe:** [View Profile](https://tryhackme.com/)
+- **GitHub:** [Furkansayyed](https://github.com/Furkansayyed)
+- **TryHackMe:** [View Profile](https://tryhackme.com/p/sayyedfurkan115)
 
 *(Don't forget to update the GitHub and TryHackMe profile links above before publishing!)*
 
