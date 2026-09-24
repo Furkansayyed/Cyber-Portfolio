@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furkan Sayyed | Offensive Security & Penetration Testing Specialist</title>
+    <meta name="description"
+        content="Portfolio of Furkan Sayyed - MS Cybersecurity graduate, Top 1% TryHackMe CTF Player, Penetration Tester, OSCP Candidate, and Published Quantum Authentication Researcher.">
+    <meta name="keywords"
+        content="Furkan Sayyed, Cybersecurity, Penetration Testing, VAPT, Ethical Hacking, TryHackMe, OSCP, Quantum Authentication, Kali Linux, Burp Suite">
+    <meta name="author" content="Furkan Sayyed">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Furkan Sayyed | Offensive Security & VAPT Specialist">
+    <meta property="og:description"
+        content="Explore pentest projects, CTF writeups, VAPT reports, and quantum security research publications by Furkan Sayyed.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/73273662?v=4">
+
+    <meta name="theme-color" content="#00ff88">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Fira+Code:wght@400;500;600&family=Orbitron:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=2.0">
+</head>
+
+<body>
+    <!-- Background Canvas & Cyber Visual Layer -->
+    <canvas id="cyberCanvas"></canvas>
+    <div class="cyber-bg-overlay"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>0x<span class="logo-name">FURKAN</span><span class="logo-bracket">
+                    /&gt;</span>
+                <span class="status-dot" title="Available for Offensive Security & VAPT roles"></span>
+            </a>
+
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills & Tools</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-badge-container">
+                <span class="cyber-pill live-pill">
+                    <span class="pulse-indicator"></span> TOP 1% TRYHACKME
+                </span>
+                <span class="cyber-pill">MS CYBERSECURITY (8.5 CGPI)</span>
+                <span class="cyber-pill highlight-pill">OSCP CANDIDATE</span>
+            </div>
+
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Furkan Sayyed</span>
+            </h1>
+
+            <div class="typewriter-container">
+                <span class="terminal-prefix">$ </span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="type-cursor">|</span>
+            </div>
+
+            <p class="hero-description">
+                Offensive Security & VAPT Specialist with hands-on penetration testing experience across 9+
+                enterprise-grade labs and real-world university infrastructure. Published researcher in <strong>Quantum
+                    Authentication & Post-Quantum Cryptography</strong>, actively advancing offensive tradecraft toward
+                OSCP certification.
+            </p>
+
+            <div class="hero-stats-bar">
+                <div class="stat-card">
+                    <div class="stat-number">Top 1%</div>
+                    <div class="stat-label">TryHackMe Ranking</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9+</div>
+                    <div class="stat-label">Pentest Labs & Root Chains</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Peer-Reviewed Publications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8.5</div>
+                    <div class="stat-label">MS Cybersecurity CGPI</div>
+                </div>
+            </div>
+
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-shield-halved"></i> Explore Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Get in Touch
+                </a>
+                <a href="mailto:sayyedfurkan115@gmail.com" class="btn btn-glass" title="Email Furkan">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </div>
+
+            <div class="hero-social-links">
+                <a href="https://github.com/Furkansayyed" target="_blank" rel="noopener noreferrer" class="social-icon"
+                    aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                    <span class="social-tooltip">github.com/Furkansayyed</span>
+                </a>
+                <a href="https://linkedin.com/in/furkansayyed19" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="social-tooltip">linkedin.com/in/furkansayyed19</span>
+                </a>
+                <a href="mailto:sayyedfurkan115@gmail.com" class="social-icon" aria-label="Email Furkan">
+                    <i class="fas fa-at"></i>
+                    <span class="social-tooltip">sayyedfurkan115@gmail.com</span>
+                </a>
+                <a href="tel:+917738885888" class="social-icon" aria-label="Call Furkan">
+                    <i class="fas fa-phone"></i>
+                    <span class="social-tooltip">+91 7738885888</span>
+                </a>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Bridging offensive vulnerability research, infrastructure exploitation, and
+                    next-generation post-quantum security.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-bio-card">
+                    <div class="card-glow"></div>
+                    <div class="bio-header">
+                        <div class="avatar-wrapper">
+                            <img src="https://avatars.githubusercontent.com/u/73273662?v=4"
+                                alt="Furkan Sayyed Profile Photo" class="profile-avatar"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Furkan+Sayyed&background=00ff88&color=000&size=200'">
+                            <span class="avatar-ring"></span>
+                        </div>
+                        <div class="bio-title-info">
+                            <h3>Furkan Sayyed</h3>
+                            <p class="bio-role"><i class="fas fa-terminal text-primary"></i> Offensive Security Engineer
+                                & Researcher</p>
+                            <p class="bio-location"><i class="fas fa-map-marker-alt text-accent"></i> Mumbai,
+                                Maharashtra, India</p>
+                        </div>
+                    </div>
+
+                    <div class="bio-body">
+                        <p>
+                            I am a cybersecurity professional with a master's degree in <strong>Cybersecurity from the
+                                University of Mumbai (8.5 CGPI)</strong> and a rank among the <strong>top 1% globally on
+                                TryHackMe</strong>. My passion lies in offensive security: dissecting complex
+                            architectures, hunting zero-configuration flaws, executing full-scope penetration tests, and
+                            developing proof-of-concept exploits.
+                        </p>
+                        <p>
+                            Through hands-on assessments of <strong>9+ dedicated pentest labs</strong> (VulnHub, Hack
+                            The Box, SickOS, Mr. Robot, Metasploitable) and practical security audits on live university
+                            web portals, I have mastered the complete attack lifecycle—from stealth reconnaissance and
+                            service enumeration to initial foothold, privilege escalation, and actionable remediation
+                            reporting.
+                        </p>
+                        <p>
+                            Beyond classical cyber threats, I am a published researcher investigating <strong>Quantum
+                                Entanglement and Post-Quantum Cryptography (PQC)</strong> for Zero-Trust distributed
+                            authentication architectures using Qiskit simulations. Currently, I am intensively training
+                            for the <strong>OSCP (Offensive Security Certified Professional)</strong> exam.
+                        </p>
+
+                        <div class="key-traits-grid">
+                            <div class="trait-item">
+                                <i class="fas fa-bug trait-icon"></i>
+                                <div>
+                                    <h4>Vulnerability Assessment (VAPT)</h4>
+                                    <span>Web, Network, Android, & System Exploitation</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-atom trait-icon"></i>
+                                <div>
+                                    <h4>Quantum Security Research</h4>
+                                    <span>Entangled Qubits & Device-Independent Protocols</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-user-secret trait-icon"></i>
+                                <div>
+                                    <h4>Threat Recon & OSINT</h4>
+                                    <span>External Attack Surface Mapping & Intel Gathering</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-crosshairs trait-icon"></i>
+                                <div>
+                                    <h4>Privilege Escalation</h4>
+                                    <span>Linux SUID/Kernel/Cron & Android IPC Exploitation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Kali Linux Terminal Emulator -->
+                <div class="terminal-container">
+                    <div class="terminal-window">
+                        <div class="terminal-bar">
+                            <div class="terminal-dots">
+                                <span class="dot close"></span>
+                                <span class="dot minimize"></span>
+                                <span class="dot maximize"></span>
+                            </div>
+                            <div class="terminal-title">
+                                <i class="fas fa-terminal"></i> furkan@kali-offensive:~ (zsh)
+                            </div>
+                            <div class="terminal-status">
+                                <span class="status-indicator"></span> 0.01s
+                            </div>
+                        </div>
+
+                        <div class="terminal-body" id="terminalOutput">
+                            <!-- Populated dynamically and accepts user interactive typing! -->
+                        </div>
+
+                        <div class="terminal-input-row">
+                            <span class="terminal-user">furkan@kali-sec</span><span class="terminal-sep">:</span><span
+                                class="terminal-path">~</span><span class="terminal-symbol">$</span>
+                            <input type="text" id="terminalInput" class="terminal-cli-input"
+                                placeholder="type 'help', 'skills', 'projects', 'papers', or 'clear'..."
+                                autocomplete="off" spellcheck="false">
+                        </div>
+                    </div>
+                    <div class="terminal-hint">
+                        <i class="fas fa-info-circle"></i> Try entering interactive shell commands: <code>help</code>,
+                        <code>skills</code>, <code>projects</code>, <code>papers</code>, <code>whoami</code>,
+                        <code>clear</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tools Matrix -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"> </span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Tools</span></h2>
+                <p class="section-subtitle">A curated arsenal of offensive tools, penetration testing frameworks, OSINT
+                    suites, and scripting environments.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Category 1: Offensive Security & VAPT -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-red">
+                            <i class="fas fa-skull-crossbones"></i>
+                        </div>
+                        <div>
+                            <h3>Offensive Security & VAPT</h3>
+                            <p>Penetration testing & adversarial simulations</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-shield-virus"></i> Penetration Testing</span>
+                        <span class="skill-chip"><i class="fas fa-search"></i> Vulnerability Assessment (VAPT)</span>
+                        <span class="skill-chip"><i class="fas fa-flag"></i> Capture The Flag (CTF)</span>
+                        <span class="skill-chip"><i class="fas fa-user-ninja"></i> Red Teaming Tactics</span>
+                        <span class="skill-chip"><i class="fas fa-arrow-up-right-dots"></i> Privilege Escalation
+                            (Linux/Android)</span>
+                        <span class="skill-chip"><i class="fas fa-globe"></i> Web Application Security (OWASP Top
+                            10)</span>
+                        <span class="skill-chip"><i class="fas fa-mobile-screen"></i> Android Security & IPC
+                            Auditing</span>
+                        <span class="skill-chip"><i class="fas fa-door-open"></i> Post-Exploitation & Pivoting</span>
+                        <span class="skill-chip"><i class="fas fa-network-wired"></i> Network Enumeration &
+                            Fingerprinting</span>
+                    </div>
+                </div>
+
+                <!-- Category 2: Pentest & Security Tools -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-green">
+                            <i class="fas fa-toolbox"></i>
+                        </div>
+                        <div>
+                            <h3>Security Tools & Utilities</h3>
+                            <p>Industry-standard toolsets for ethical hacking</p>
+                        </div>
+                    </div>
+                    <div class="tools-grid-inner">
+                        <div class="tool-badge">
+                            <i class="fab fa-linux"></i>
+                            <span class="tool-name">Kali Linux</span>
+                            <span class="tool-desc">Primary Pentest OS</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-spider"></i>
+                            <span class="tool-name">Burp Suite</span>
+                            <span class="tool-desc">Web App Proxy & Fuzzer</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-satellite-dish"></i>
+                            <span class="tool-name">Nmap</span>
+                            <span class="tool-desc">Port Scanning & NSE</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-folder-tree"></i>
+                            <span class="tool-name">Gobuster</span>
+                            <span class="tool-desc">Directory & DNS Bruteforcing</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-bomb"></i>
+                            <span class="tool-name">Metasploit</span>
+                            <span class="tool-desc">Exploit Framework</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-radar"></i>
+                            <span class="tool-name">Nikto</span>
+                            <span class="tool-desc">Web Server Scanner</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-ethernet"></i>
+                            <span class="tool-name">Wireshark</span>
+                            <span class="tool-desc">Packet Analysis & PCAP</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-terminal"></i>
+                            <span class="tool-name">Netcat / Socat</span>
+                            <span class="tool-desc">Reverse & Bind Shells</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fas fa-clipboard-check"></i>
+                            <span class="tool-name">Nessus</span>
+                            <span class="tool-desc">Vulnerability Scanning</span>
+                        </div>
+                        <div class="tool-badge">
+                            <i class="fab fa-android"></i>
+                            <span class="tool-name">ADB (Android Bridge)</span>
+                            <span class="tool-desc">Mobile Debugging & Shells</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: OSINT & Threat Intelligence -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-cyan">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div>
+                            <h3>OSINT & Threat Intelligence</h3>
+                            <p>Digital footprinting and surface discovery</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-virus"></i> VirusTotal & Threat Telemetry</span>
+                        <span class="skill-chip"><i class="fas fa-certificate"></i> crt.sh (Certificate Logs)</span>
+                        <span class="skill-chip"><i class="fas fa-id-card"></i> WHOIS & DNS Records</span>
+                        <span class="skill-chip"><i class="fas fa-magnifying-glass-chart"></i> Epieos Intel
+                            Platform</span>
+                        <span class="skill-chip"><i class="fas fa-images"></i> Reverse Image Verification</span>
+                        <span class="skill-chip"><i class="fas fa-clock-rotate-left"></i> Wayback Machine &
+                            Archives</span>
+                        <span class="skill-chip"><i class="fas fa-search-plus"></i> Advanced Google Dorking</span>
+                        <span class="skill-chip"><i class="fas fa-network-wired"></i> Subdomain & Surface Mapping</span>
+                    </div>
+                </div>
+
+                <!-- Category 4: Programming & Quantum Simulation -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-purple">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div>
+                            <h3>Scripting & Quantum Tech</h3>
+                            <p>Automation, exploit crafting & simulation</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fab fa-python"></i> Python (Exploit Dev & Tools)</span>
+                        <span class="skill-chip"><i class="fas fa-terminal"></i> Bash & Linux Shell Scripting</span>
+                        <span class="skill-chip"><i class="fab fa-js"></i> JavaScript & Web APIs</span>
+                        <span class="skill-chip"><i class="fas fa-atom"></i> IBM Qiskit (Quantum Circuits)</span>
+                        <span class="skill-chip"><i class="fas fa-key"></i> Post-Quantum Cryptography (PQC)</span>
+                        <span class="skill-chip"><i class="fas fa-database"></i> SQL (Injection & Database
+                            Audits)</span>
+                        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git, GitHub & GitHub Actions</span>
+                        <span class="skill-chip"><i class="fas fa-book"></i> Jupyter Notebook Simulations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                <p class="section-subtitle">Real-world security operations, vulnerability testing, and threat analysis
+                    across organizations.</p>
+            </div>
+
+            <div class="timeline-container">
+                <!-- Experience 1 (Left) -->
+                <div class="timeline-block left">
+                    <div class="timeline-dot"><i class="fas fa-shield-halved"></i></div>
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="far fa-calendar-alt"></i> OCT 2024 — MAY 2026</span>
+                            <span class="timeline-location"><i class="fas fa-map-pin"></i> Mumbai, India</span>
+                        </div>
+                        <h3 class="role-title">Cyber Security & Networking Analyst</h3>
+                        <h4 class="company-name"><i class="fas fa-university"></i> University of Mumbai</h4>
+
+                        <p class="role-summary">
+                            Entrusted with foundational networking architecture, vulnerability assessment, and defensive
+                            posture evaluation across university servers and public-facing web applications.
+                        </p>
+
+                        <ul class="role-highlights">
+                            <li>
+                                <strong>VAPT on University Portals:</strong> Conducted thorough Vulnerability Assessment
+                                and Penetration Testing on institutional websites and academic management portals,
+                                identifying authentication bypass flaws, injection vectors, and improper access
+                                controls.
+                            </li>
+                            <li>
+                                <strong>Mitigation & Remediation Strategy:</strong> Drafted actionable technical VAPT
+                                walkthroughs for systems administrators, delivering patch strategies and secure coding
+                                guidelines to eliminate risk vectors.
+                            </li>
+                            <li>
+                                <strong>Infrastructure Support & Hardening:</strong> Assisted in configuring networking
+                                switches, routers, and VLAN segmentation, ensuring secure access policies, network
+                                telemetry, and traffic isolation across campus nodes.
+                            </li>
+                            <li>
+                                <strong>Continuous Security Testing:</strong> Monitored exposed endpoints against
+                                brute-force attacks and port probes, executing proactive audits to prevent data
+                                exposure.
+                            </li>
+                        </ul>
+
+                        <div class="timeline-tags">
+                            <span>VAPT</span>
+                            <span>Network Hardening</span>
+                            <span>Web Security</span>
+                            <span>Burp Suite</span>
+                            <span>Nmap</span>
+                            <span>Mitigation Planning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 (Right) -->
+                <div class="timeline-block right">
+                    <div class="timeline-dot"><i class="fas fa-network-wired"></i></div>
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="far fa-calendar-alt"></i> MAY 2025 — JUN 2025</span>
+                            <span class="timeline-location"><i class="fas fa-globe"></i> Remote</span>
+                        </div>
+                        <h3 class="role-title">Cyber Security Intern</h3>
+                        <h4 class="company-name"><i class="fas fa-building"></i> Skill Sync</h4>
+
+                        <p class="role-summary">
+                            Engaged in hands-on network defense, vulnerability assessment simulations, traffic
+                            inspection, and incident mitigation routines.
+                        </p>
+
+                        <ul class="role-highlights">
+                            <li>
+                                <strong>Packet Inspection & Traffic Analysis:</strong> Utilized Wireshark to capture,
+                                dissect, and analyze network packets for anomaly detection, unencrypted credential
+                                transmission, and DNS spoofing markers.
+                            </li>
+                            <li>
+                                <strong>Vulnerability Auditing:</strong> Executed automated and manual vulnerability
+                                scans across simulated subnetworks to detect outdated server daemons and weak protocol
+                                implementations.
+                            </li>
+                            <li>
+                                <strong>Phishing Analysis:</strong> Analyzed simulated malicious email attachments,
+                                spear-phishing templates, and deceptive URL payloads, documenting indicators of
+                                compromise (IoCs).
+                            </li>
+                            <li>
+                                <strong>Firewall Rule Base Configuration:</strong> Formulated stateful firewall
+                                filtering rules, closing unneeded service ports and mitigating lateral movement risks.
+                            </li>
+                        </ul>
+
+                        <div class="timeline-tags">
+                            <span>Wireshark</span>
+                            <span>Phishing Analysis</span>
+                            <span>Firewall Rules</span>
+                            <span>Network Security</span>
+                            <span>Vulnerability Assessment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 (Left) -->
+                <div class="timeline-block left">
+                    <div class="timeline-dot"><i class="fas fa-search-location"></i></div>
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="far fa-calendar-alt"></i> SEPT 2025 — OCT 2025</span>
+                            <span class="timeline-location"><i class="fas fa-globe"></i> Remote</span>
+                        </div>
+                        <h3 class="role-title">OSINT & Threat Intelligence Intern</h3>
+                        <h4 class="company-name"><i class="fas fa-user-secret"></i> Cyber Secured India</h4>
+
+                        <p class="role-summary">
+                            Specialized in Open-Source Intelligence gathering, threat actor attribution, and external
+                            asset discovery for digital risk investigations.
+                        </p>
+
+                        <ul class="role-highlights">
+                            <li>
+                                <strong>Attack Surface Mapping:</strong> Leveraged crt.sh (Certificate Transparency
+                                logs), WHOIS historical records, and DNS databases to identify forgotten subdomains and
+                                shadow IT assets.
+                            </li>
+                            <li>
+                                <strong>Malware & Threat Verification:</strong> Analyzed suspicious hashes, domains, and
+                                IP reputations using VirusTotal, correlating threat intelligence with emerging
+                                ransomware infrastructure.
+                            </li>
+                            <li>
+                                <strong>People & Digital Recon:</strong> Conducted deep-dive investigations utilizing
+                                Epieos, reverse image intelligence algorithms, and Wayback Machine archives to trace
+                                digital identities and data leak exposures.
+                            </li>
+                            <li>
+                                <strong>Comprehensive Intel Reports:</strong> Synthesized disparate open-source
+                                breadcrumbs into polished, actionable threat reports for security decision-makers.
+                            </li>
+                        </ul>
+
+                        <div class="timeline-tags">
+                            <span>OSINT</span>
+                            <span>VirusTotal</span>
+                            <span>crt.sh</span>
+                            <span>Epieos</span>
+                            <span>Threat Intelligence</span>
+                            <span>Surface Recon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"> </span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Real-world penetration testing labs, CTF compromises, mobile exploit chains,
+                    and quantum simulation research.</p>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="project-filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Projects (10)</button>
+                <button class="filter-tab" data-filter="web">Web Pentest</button>
+                <button class="filter-tab" data-filter="linux">Linux & CTF</button>
+                <button class="filter-tab" data-filter="mobile">Mobile & Android</button>
+                <button class="filter-tab" data-filter="quantum">Quantum & Labs</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+
+                <!-- Project 1: Quantum Authentication (from GitHub & Paper) -->
+                <div class="project-card" data-category="quantum">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-atom"></i> Quantum Security & Simulation</div>
+                        <a href="https://github.com/Furkansayyed/Quantum-Authentication-using-Qiskit-Simulation"
+                            target="_blank" rel="noopener noreferrer" class="card-link" aria-label="GitHub Repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Quantum Authentication using Qiskit Simulation</h3>
+                        <p class="project-desc">
+                            Engineered a quantum authentication framework simulating EPR-entangled qubit pairs and
+                            device-independent Zero-Trust protocols. Designed to counter intercept-resend eavesdropping
+                            and evaluate Post-Quantum Cryptographic resilience against quantum adversary attacks.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Modeled Bell-state
+                                entanglement verification</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Benchmarked eavesdropping
+                                error rates with IBM Qiskit</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Python</span>
+                            <span>IBM Qiskit</span>
+                            <span>Jupyter</span>
+                            <span>Quantum Circuits</span>
+                            <span>PQC</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/Furkansayyed/Quantum-Authentication-using-Qiskit-Simulation"
+                            target="_blank" class="btn-sm btn-primary">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                        <a href="#research" class="btn-sm btn-outline">
+                            <i class="fas fa-book-open"></i> View Research
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Android 4.1 Pentest -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fab fa-android"></i> Android Security & Priv-Esc</div>
+                        <span class="badge-lab">Lab Compromise</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Android 4.1 – Mobile Pentest & Privilege Escalation</h3>
+                        <p class="project-desc">
+                            Conducted comprehensive mobile security auditing on an Android environment. Enumerated
+                            exported services, inter-process communication (IPC) weaknesses, and unprotected application
+                            components. Gained root/administrative privileges via ADB exploitation and created an
+                            end-to-end attack lifecycle report.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Audited exported broadcast
+                                receivers & content providers</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Exploited ADB
+                                misconfigurations to escalate to system/admin</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>ADB</span>
+                            <span>Nmap</span>
+                            <span>Bash</span>
+                            <span>Mobile Security</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-flag-checkered text-primary"></i> 100% Root
+                            Achieved</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fas fa-file-lines"></i> Walkthrough
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: SickOS 1.2 -->
+                <div class="project-card" data-category="linux web">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fab fa-linux"></i> Linux Security & Web Assessment</div>
+                        <span class="badge-lab">VulnHub Box</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">SickOS 1.2 – Advanced Linux Security Assessment</h3>
+                        <p class="project-desc">
+                            Performed advanced reconnaissance on SickOS 1.2, identifying an insecure HTTP PUT method
+                            enabled on a Lighttpd web daemon. Bypassed strict egress firewall filtering by establishing
+                            a reverse shell through specific open outbound ports, followed by exploiting vulnerable cron
+                            jobs (chkrootkit) for root privilege escalation.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Discovered HTTP PUT flaw via
+                                Burp Suite & curl upload</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Egress filter evasion &
+                                automated chkrootkit priv-esc</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>Burp Suite</span>
+                            <span>Nmap</span>
+                            <span>Netcat</span>
+                            <span>Lighttpd</span>
+                            <span>Cron Exploits</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-check text-primary"></i> Root Compromised</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fab fa-github"></i> Walkthrough Docs
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Mr. Robot CTF -->
+                <div class="project-card" data-category="web linux">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-mask"></i> Web & SUID Exploitation</div>
+                        <span class="badge-lab">CTF Challenge</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Mr. Robot – Web App Pentest & Linux Escalation</h3>
+                        <p class="project-desc">
+                            Adversarial assessment simulating a real-world enterprise target. Performed extensive
+                            fuzzing, WordPress dictionary attacks using custom wordlists derived from robots.txt,
+                            injected a PHP reverse shell via theme editor, cracked MD5 hashes, and leveraged
+                            misconfigured SUID binaries (nmap interactive mode) to gain root.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> WordPress admin compromise &
+                                reverse shell deployment</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Captured all 3 hidden flags
+                                & escalated to root UID 0</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>Gobuster</span>
+                            <span>Burp Suite</span>
+                            <span>Hydra</span>
+                            <span>WPScan</span>
+                            <span>SUID Priv-Esc</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-trophy text-primary"></i> 3/3 Flags Captured</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fas fa-terminal"></i> Attack Chain
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: PortSwigger Web Security Academy Labs (from GitHub) -->
+                <div class="project-card" data-category="web">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-globe-americas"></i> Web Vulnerability Research</div>
+                        <a href="https://github.com/Furkansayyed/PortSwigger-Labs" target="_blank"
+                            rel="noopener noreferrer" class="card-link" aria-label="GitHub Repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">PortSwigger Web Security Academy Labs</h3>
+                        <p class="project-desc">
+                            Systematic documentation and solutions for PortSwigger Academy offensive security labs.
+                            Covers deep technical exploitation of SQL Injection (Union & Blind), Cross-Site Scripting
+                            (Reflected, Stored, DOM), Server-Side Request Forgery (SSRF), CSRF, Directory Traversal, and
+                            Authentication Logic Bypasses.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Blind SQLi with conditional
+                                errors & time delays</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Bypassing WAFs, filters, and
+                                modern browser sanitizers</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Burp Suite Pro</span>
+                            <span>SQLi</span>
+                            <span>XSS</span>
+                            <span>SSRF</span>
+                            <span>Authentication Flaws</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/Furkansayyed/PortSwigger-Labs" target="_blank"
+                            class="btn-sm btn-primary">
+                            <i class="fab fa-github"></i> PortSwigger Labs
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Matrix 2 Linux Pentest -->
+                <div class="project-card" data-category="linux">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fab fa-linux"></i> Linux Priv-Esc & Exploitation</div>
+                        <span class="badge-lab">VulnHub Target</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Matrix 2 – Linux Penetration Testing & Walkthrough</h3>
+                        <p class="project-desc">
+                            Full port scanning and banner fingerprinting across exposed ports. Identified hidden web
+                            endpoints, exploited service logic vulnerabilities to spawn a low-privilege bash shell,
+                            conducted automated local enumeration using LinPEAS, and escalated privileges to root.
+                            Compiled an end-to-end technical remediation walkthrough.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Service fingerprinting & web
+                                service exploitation</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> LinPEAS enumeration & root
+                                mitigation documentation</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>Nmap</span>
+                            <span>Burp Suite</span>
+                            <span>Bash</span>
+                            <span>LinPEAS</span>
+                            <span>Priv-Esc</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-check-double text-primary"></i> Full
+                            Compromise</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fas fa-scroll"></i> Report
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7: Hackable III -->
+                <div class="project-card" data-category="web linux">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-network-wired"></i> Web App Pentest</div>
+                        <span class="badge-lab">Pentest Lab</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Hackable III – Web App Pentest & Priv-Esc</h3>
+                        <p class="project-desc">
+                            Comprehensive penetration test targeting exposed web applications. Uncovered hidden
+                            directories and unauthenticated upload forms using Gobuster. Crafted a customized PHP
+                            payload to bypass file extension validation, obtained a persistent Netcat listener shell,
+                            and escalated privileges to root on the underlying Linux host.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> File upload filter bypass &
+                                remote execution</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Sudo permission abuse for
+                                administrative privilege escalation</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>Burp Suite</span>
+                            <span>Gobuster</span>
+                            <span>Nmap</span>
+                            <span>Netcat</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-shield text-primary"></i> Pentest Completed</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fab fa-github"></i> Walkthrough
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8: Metasploitable 2 Vulnerability Assessment -->
+                <div class="project-card" data-category="linux quantum">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-bug"></i> CVE Auditing & Exploitation</div>
+                        <span class="badge-lab">Vulnerability Lab</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Metasploitable 2 – CVE Auditing & Assessment</h3>
+                        <p class="project-desc">
+                            Rigorous security assessment and CVE validation across a deliberately vulnerable enterprise
+                            network. Validated multiple high-severity vulnerabilities including vsftpd backdoor
+                            (CVE-2011-2523), Samba usermap script (CVE-2007-2447), UnrealIRCd, and PHP CGI execution
+                            bugs. Completed post-exploitation data analysis and remediation advisory.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Multiple CVE validations
+                                using Metasploit Framework</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Post-exploitation credential
+                                dumping & system hardening roadmap</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Metasploit</span>
+                            <span>Nmap NSE</span>
+                            <span>Nikto</span>
+                            <span>Burp Suite</span>
+                            <span>CVE Verification</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-file-shield text-primary"></i> VAPT Audited</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fas fa-list-check"></i> CVE Matrix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 9: PicoCTF WriteUps (from GitHub) -->
+                <div class="project-card" data-category="linux quantum">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fas fa-flag"></i> Binary Exploitation & Reverse Eng</div>
+                        <a href="https://github.com/Furkansayyed/Pico-CTF-WriteUps" target="_blank"
+                            rel="noopener noreferrer" class="card-link" aria-label="GitHub Repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">PicoCTF WriteUps & Challenge Solutions</h3>
+                        <p class="project-desc">
+                            Published solutions and writeups for PicoCTF competitions. Demonstrates binary analysis,
+                            memory corruption mitigation bypass, reverse engineering compiled C/C++ executables, digital
+                            forensics (steganography, PCAP carving), and modern cryptographic problem-solving.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Disassembly, decompilation,
+                                and buffer overflow debugging</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Forensics artifact
+                                extraction and custom Python solvers</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>GDB / Ghidra</span>
+                            <span>Python</span>
+                            <span>Reverse Engineering</span>
+                            <span>Forensics</span>
+                            <span>Binary Exploitation</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/Furkansayyed/Pico-CTF-WriteUps" target="_blank"
+                            class="btn-sm btn-primary">
+                            <i class="fab fa-github"></i> View Writeups
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 10: Sunset & SickOS 1.1 -->
+                <div class="project-card" data-category="linux">
+                    <div class="project-card-header">
+                        <div class="project-type"><i class="fab fa-linux"></i> Linux CTF & Attack Chain</div>
+                        <span class="badge-lab">VulnHub Boxes</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Sunset & SickOS 1.1 – Full Attack Lifecycles</h3>
+                        <p class="project-desc">
+                            Executed full-scope attack chains across multiple vulnerable Linux VMs. Conducted network
+                            service discovery, identified exposed CMS installations and vulnerable CGI scripts,
+                            leveraged local privilege escalation vectors to obtain root UID 0, and authored walkthroughs
+                            with defense guidelines.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Network enumeration,
+                                directory bruteforcing & CGI exploits</div>
+                            <div class="highlight-item"><i class="fas fa-check-circle"></i> Root access achieved with
+                                detailed defense recommendations</div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Kali Linux</span>
+                            <span>Nmap</span>
+                            <span>Gobuster</span>
+                            <span>Bash</span>
+                            <span>Netcat</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="status-badge"><i class="fas fa-award text-primary"></i> 100% Root
+                            Walkthrough</span>
+                        <a href="https://github.com/Furkansayyed/VulnHub-Walkthorughs" target="_blank"
+                            class="btn-sm btn-outline">
+                            <i class="fab fa-github"></i> Read Walkthrough
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Papers Section (Dedicated Highlight) -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">Published <span class="gradient-text">Research Papers</span></h2>
+                <p class="section-subtitle">Peer-reviewed publications in quantum authentication, entangled qubit
+                    protocols, and Post-Quantum Cryptography (PQC).</p>
+            </div>
+
+            <div class="research-grid">
+                <!-- Paper 1 -->
+                <div class="research-card">
+                    <div class="paper-badge-row">
+                        <span class="journal-badge">IJESE</span>
+                        <span class="volume-badge">Vol-13 Issue-5 · Apr 2025</span>
+                        <span class="peer-badge"><i class="fas fa-check-circle"></i> Peer Reviewed</span>
+                    </div>
+                    <h3 class="paper-title">
+                        A Comprehensive Approach for Harnessing Entanglement for Next-Generation Authentication: From
+                        Passwords to Qubits
+                    </h3>
+                    <p class="paper-abstract">
+                        This paper investigates the vulnerabilities of conventional password-based and tokenized
+                        authentication schemes against quantum computational attacks. It presents a next-generation
+                        authentication architecture utilizing Einstein-Podolsky-Rosen (EPR) quantum entanglement. By
+                        leveraging quantum state collapse principles, any unauthorized interception inherently alters
+                        the quantum state, rendering spoofing physically impossible.
+                    </p>
+                    <div class="paper-details">
+                        <div class="doi-info">
+                            <i class="fas fa-fingerprint"></i>
+                            <strong>DOI:</strong>
+                            <a href="https://doi.org/10.35940/ijrte.A8345.14060326" target="_blank"
+                                rel="noopener noreferrer" class="doi-link">
+                                10.35940/ijrte.A8345.14060326
+                            </a>
+                        </div>
+                    </div>
+                    <div class="paper-keywords">
+                        <span>Quantum Entanglement</span>
+                        <span>Next-Gen Authentication</span>
+                        <span>EPR Paradox</span>
+                        <span>Zero-Trust</span>
+                    </div>
+                </div>
+
+                <!-- Paper 2 -->
+                <div class="research-card">
+                    <div class="paper-badge-row">
+                        <span class="journal-badge">IJIRT</span>
+                        <span class="volume-badge">Vol-12 Issue-8 · Jan 2026</span>
+                        <span class="peer-badge"><i class="fas fa-check-circle"></i> Peer Reviewed</span>
+                    </div>
+                    <h3 class="paper-title">
+                        Entangled Qubits and PQC: A Simulated Performance Analysis for Post-Quantum Authentication
+                    </h3>
+                    <p class="paper-abstract">
+                        A comparative performance and latency analysis between entangled qubit distribution schemes and
+                        contemporary Post-Quantum Cryptographic (PQC) lattice-based algorithms. Employs simulated
+                        distributed nodes to benchmark key generation latency, verification overhead, noise resilience,
+                        and eavesdropping detection thresholds under noisy quantum channel conditions.
+                    </p>
+                    <div class="paper-details">
+                        <div class="doi-info">
+                            <i class="fas fa-link"></i>
+                            <strong>Publication Link:</strong>
+                            <a href="https://ijirt.org/article?manuscript=190861" target="_blank"
+                                rel="noopener noreferrer" class="doi-link">
+                                IJIRT Vol-12 Issue-8
+                            </a>
+                        </div>
+                    </div>
+                    <div class="paper-keywords">
+                        <span>PQC</span>
+                        <span>Entangled Qubits</span>
+                        <span>Performance Simulation</span>
+                        <span>Channel Noise</span>
+                    </div>
+                </div>
+
+                <!-- Paper 3 -->
+                <div class="research-card">
+                    <div class="paper-badge-row">
+                        <span class="journal-badge">IJCA</span>
+                        <span class="volume-badge">Vol-187 Issue-105 · May 2026</span>
+                        <span class="peer-badge"><i class="fas fa-check-circle"></i> Peer Reviewed</span>
+                    </div>
+                    <h3 class="paper-title">
+                        Zero-Trust Quantum Authentication for Distributed Systems using Device-Independent Protocols and
+                        Qiskit Simulation
+                    </h3>
+                    <p class="paper-abstract">
+                        Proposes a device-independent Zero-Trust quantum authentication framework for heterogeneous
+                        distributed nodes. Utilizing Bell-test violations and Python-based IBM Qiskit quantum circuit
+                        simulations, this study proves that authentication integrity can be cryptographically guaranteed
+                        even when the physical quantum devices themselves are untrusted or manufactured by third
+                        parties.
+                    </p>
+                    <div class="paper-details">
+                        <div class="doi-info">
+                            <i class="fas fa-microchip"></i>
+                            <strong>Simulation Code:</strong>
+                            <a href="https://www.ijcaonline.org/archives/volume187/number105/zero-trust-quantum-authentication-for-distributed-systems-using-device-independent-protocols-and-qiskit-simulation/"
+                                target="_blank" rel="noopener noreferrer" class="doi-link">
+                                10.5120/ijcad7722d6000a6
+                            </a>
+                        </div>
+                    </div>
+                    <div class="paper-keywords">
+                        <span>IBM Qiskit</span>
+                        <span>Device-Independent</span>
+                        <span>Zero-Trust Distributed Systems</span>
+                        <span>Bell Inequality</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">Academic <span class="gradient-text">Education</span></h2>
+                <p class="section-subtitle">Rigorous training in computer science, software engineering, and advanced
+                    cybersecurity principles.</p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Education 1 -->
+                <div class="education-card highlight-card">
+                    <div class="edu-icon-box">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-timeframe">2024 – 2026</div>
+                        <h3 class="edu-degree">Master of Science in Cyber Security (MS)</h3>
+                        <h4 class="edu-institution"><i class="fas fa-university"></i> University of Mumbai, Mumbai,
+                            India</h4>
+                        <div class="edu-score-badge">
+                            <i class="fas fa-star"></i> CGPI: <strong>8.5 / 10.0</strong>
+                        </div>
+                        <p class="edu-desc">
+                            Specialized advanced curriculum covering Vulnerability Assessment & Penetration Testing
+                            (VAPT), Advanced Cryptography, Network Protocols & Infrastructure Hardening, Digital
+                            Forensics, Cloud Security Architecture, and Post-Quantum Defense Protocols.
+                        </p>
+                        <div class="edu-highlights">
+                            <span>VAPT Practical Labs</span>
+                            <span>Network Hardening</span>
+                            <span>Quantum Security Thesis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="education-card">
+                    <div class="edu-icon-box">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-timeframe">2021 – 2024</div>
+                        <h3 class="edu-degree">Bachelor of Science in Computer Science (B.Sc.)</h3>
+                        <h4 class="edu-institution"><i class="fas fa-school"></i> Bhartiya Vidya Bhavan's College,
+                            Mumbai, India</h4>
+                        <div class="edu-score-badge">
+                            <i class="fas fa-award"></i> CGPA: <strong>8.83 / 10.0</strong>
+                        </div>
+                        <p class="edu-desc">
+                            Comprehensive grounding in Data Structures and Algorithms, Object-Oriented Programming
+                            (Python, C++, Java), Linux Operating Systems, Database Management Systems (SQL), Computer
+                            Networks (TCP/IP), and Web Technologies.
+                        </p>
+                        <div class="edu-highlights">
+                            <span>First Class with Distinction</span>
+                            <span>Systems & Networking</span>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Credentials Section -->
+    <section id="certifications" class="section cert-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Badges</span></h2>
+                <p class="section-subtitle">Verified professional credentials in offensive security, threat management,
+                    and CTF challenges.</p>
+            </div>
+
+            <div class="cert-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card"
+                    onclick="openCertModal('Introduction to Dark Web, Anonymity and Cryptocurrency', 'EC-Council', 'Foundational accreditation validating operational security on the dark web, onion routing mechanisms, anonymity protocols, and cryptocurrency tracking fundamentals.', 'fas fa-mask', '#00ff88', 'Certificates/darkweb.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #00ff88;">
+                            <i class="fas fa-mask"></i>
+                        </div>
+                        <span class="cert-provider-tag">EC-Council</span>
+                    </div>
+                    <h3 class="cert-name">Introduction to Dark Web, Anonymity and Cryptocurrency</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by EC-Council</div>
+                    <p class="cert-summary">Anonymity protocols, Tor architecture, operational security, and crypto
+                        forensics.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card"
+                    onclick="openCertModal('Cyber Threat Management', 'Cisco Networking Academy', 'Comprehensive Cisco certification addressing cyber threat detection, firewall architectures, incident classification, security operations center (SOC) fundamentals, and mitigation workflows.', 'fas fa-shield-cat', '#00ccff', 'Certificates/Cyber_Threat_Management_certificate_cisco.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #00ccff;">
+                            <i class="fas fa-shield-cat"></i>
+                        </div>
+                        <span class="cert-provider-tag">Cisco</span>
+                    </div>
+                    <h3 class="cert-name">Cyber Threat Management</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by Cisco</div>
+                    <p class="cert-summary">Threat vectors, vulnerability remediation, defensive architectures, and
+                        incident response.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card"
+                    onclick="openCertModal('Pre Security Path Certificate', 'TryHackMe', 'Validates practical mastery across core cybersecurity prerequisites: network fundamentals, HTTP/HTTPS web architecture, Linux & Windows privilege basics, and offensive testing methodology.', 'fas fa-user-shield', '#ff2a6d', 'Certificates/THM-Presecurity Path.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ff2a6d;">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <span class="cert-provider-tag">TryHackMe</span>
+                    </div>
+                    <h3 class="cert-name">Pre Security Path Certificate</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by TryHackMe</div>
+                    <p class="cert-summary">Foundational network mechanics, web protocols, and terminal navigation for
+                        ethical hacking.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: Intro to Digital Forensics -->
+                <div class="cert-card"
+                    onclick="openCertModal('Introduction to Digital Forensics', 'Cybersecurity Platform', 'Fundamentals of digital forensics, evidence acquisition, and incident investigation.', 'fas fa-magnifying-glass', '#00ff88', 'Certificates/Introduction to Digital Forensics-course.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #00ff88;">
+                            <i class="fas fa-magnifying-glass"></i>
+                        </div>
+                        <span class="cert-provider-tag">Forensics</span>
+                    </div>
+                    <h3 class="cert-name">Introduction to Digital Forensics</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by Cybersecurity Platform</div>
+                    <p class="cert-summary">Fundamentals of digital forensics, evidence acquisition, and incident investigation.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: Intro to Cybersecurity (Cisco) -->
+                <div class="cert-card"
+                    onclick="openCertModal('Introduction to Cybersecurity', 'Cisco Networking Academy', 'Foundational concepts of cybersecurity, threat landscapes, and defensive principles.', 'fas fa-shield-halved', '#00ccff', 'Certificates/Introduction_to_Cybersecurity_certificate_cisco.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #00ccff;">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <span class="cert-provider-tag">Cisco</span>
+                    </div>
+                    <h3 class="cert-name">Introduction to Cybersecurity</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by Cisco</div>
+                    <p class="cert-summary">Foundational concepts of cybersecurity, threat landscapes, and defensive principles.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: Advent of Cyber 2022 -->
+                <div class="cert-card"
+                    onclick="openCertModal('Advent of Cyber 2022', 'TryHackMe', 'Completion of 24 days of beginner-friendly cybersecurity exercises covering web exploitation, forensics, and blue teaming.', 'fas fa-snowflake', '#ff2a6d', 'Certificates/THM-Advent of Cyber 2022.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ff2a6d;">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <span class="cert-provider-tag">TryHackMe</span>
+                    </div>
+                    <h3 class="cert-name">Advent of Cyber 2022</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by TryHackMe</div>
+                    <p class="cert-summary">24 days of beginner-friendly cybersecurity exercises in web exploitation, forensics, and blue teaming.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: Advent of Cyber 2025 -->
+                <div class="cert-card"
+                    onclick="openCertModal('Advent of Cyber 2025', 'TryHackMe', 'Advanced cybersecurity challenges completed over 24 days, covering modern threat vectors and defense techniques.', 'fas fa-gift', '#ff2a6d', 'Certificates/THM-Advent of Cyber 2025.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ff2a6d;">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <span class="cert-provider-tag">TryHackMe</span>
+                    </div>
+                    <h3 class="cert-name">Advent of Cyber 2025</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by TryHackMe</div>
+                    <p class="cert-summary">Advanced cybersecurity challenges covering modern threat vectors and defense techniques.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: HH26 -->
+                <div class="cert-card"
+                    onclick="openCertModal('TryHackMe HH26', 'TryHackMe', 'Successful completion of the TryHackMe HH26 challenge room, demonstrating practical exploitation skills.', 'fas fa-bug', '#ff2a6d', 'Certificates/THM-HH26.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ff2a6d;">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <span class="cert-provider-tag">TryHackMe</span>
+                    </div>
+                    <h3 class="cert-name">TryHackMe HH26</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by TryHackMe</div>
+                    <p class="cert-summary">Successful completion of the HH26 challenge room with practical exploitation skills.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert: Love at First Breach -->
+                <div class="cert-card"
+                    onclick="openCertModal('Love at First Breach', 'TryHackMe', 'Applied penetration testing and incident response in a romantic-themed breach scenario.', 'fas fa-heart-crack', '#ff2a6d', 'Certificates/THM-Love at First Breach.pdf')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ff2a6d;">
+                            <i class="fas fa-heart-crack"></i>
+                        </div>
+                        <span class="cert-provider-tag">TryHackMe</span>
+                    </div>
+                    <h3 class="cert-name">Love at First Breach</h3>
+                    <div class="cert-issuer"><i class="fas fa-award"></i> Issued by TryHackMe</div>
+                    <p class="cert-summary">Applied penetration testing and incident response in a romantic-themed breach scenario.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 4 (TryHackMe Top 1% Global Rank) -->
+                <div class="cert-card special-badge-card"
+                    onclick="openCertModal('Top 1% Rank - Global CTF Player', 'TryHackMe Platform', 'Demonstrates consistent problem solving and advanced machine exploitation skills, placing in the top 1 percentile among hundreds of thousands of registered cybersecurity practitioners worldwide.', 'fas fa-trophy', '#ffb703')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #ffb703;">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <span class="cert-provider-tag badge-gold">Global Standing</span>
+                    </div>
+                    <h3 class="cert-name">Top 1% Global Rank (CTF Player)</h3>
+                    <div class="cert-issuer"><i class="fas fa-medal"></i> TryHackMe Ranking</div>
+                    <p class="cert-summary">Elite offensive security problem solving across web, Linux, Windows, and
+                        binary exploitation.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 5 (OSCP In Progress) -->
+                <div class="cert-card special-badge-card"
+                    onclick="openCertModal('OSCP (Offensive Security Certified Professional) - In Progress', 'OffSec', 'Actively undergoing intensive preparation and laboratory exploitation for the prestigious OSCP certification, mastering buffer overflows, Active Directory attacks, web exploitation, and manual privilege escalation.', 'fas fa-dragon', '#9d4edd')">
+                    <div class="cert-card-top">
+                        <div class="cert-icon-wrap" style="color: #9d4edd;">
+                            <i class="fas fa-dragon"></i>
+                        </div>
+                        <span class="cert-provider-tag badge-purple">Candidate</span>
+                    </div>
+                    <h3 class="cert-name">OSCP Candidate (OffSec)</h3>
+                    <div class="cert-issuer"><i class="fas fa-crosshairs"></i> In Intensive Preparation</div>
+                    <p class="cert-summary">Mastering manual penetration testing methodologies, Active Directory, and
+                        binary exploitation.</p>
+                    <div class="cert-action">
+                        <span>Click for details</span> <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Detail Modal -->
+    <div id="certModal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle">
+        <div class="modal-backdrop" onclick="closeCertModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCertModal()" aria-label="Close modal">&times;</button>
+            <div class="modal-icon-container" id="modalIcon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <h3 class="modal-title" id="modalTitle">Certification Title</h3>
+            <div class="modal-issuer" id="modalIssuer">
+                <i class="fas fa-award"></i> Issued by EC-Council
+            </div>
+            <div class="modal-divider"></div>
+            
+            <!-- New Preview Container -->
+            <div id="modalPreviewContainer" style="display: none; margin-bottom: 20px;">
+                <embed id="modalPreviewEmbed" src="" type="application/pdf" width="100%" height="450px" style="border-radius: 8px; border: 1px solid var(--border-subtle);">
+                <div style="margin-top: 15px;">
+                    <a id="modalPreviewFallback" href="" target="_blank" class="btn btn-primary btn-sm">
+                        <i class="fas fa-external-link-alt"></i> Open Certificate in New Tab
+                    </a>
+                </div>
+            </div>
+
+            <p class="modal-description" id="modalDesc">
+                Certification details and validated skills.
+            </p>
+            <div class="modal-actions">
+                <button class="btn btn-primary btn-sm" onclick="closeCertModal()">
+                    <i class="fas fa-check"></i> Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"></span>
+                <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Open for penetration testing roles, VAPT consulting, research
+                    collaborations, and security engineering opportunities.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Details & Channels -->
+                <div class="contact-info-card">
+                    <h3 class="contact-card-title">Let's Connect & Secure Systems</h3>
+                    <p class="contact-intro">
+                        Whether you need a full VAPT assessment, an offensive security specialist on your red team, or
+                        want to discuss quantum cryptography, I am always ready to collaborate.
+                    </p>
+
+                    <div class="contact-items">
+                        <a href="mailto:sayyedfurkan115@gmail.com" class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <span class="item-label">Direct Email</span>
+                                <span class="item-val">sayyedfurkan115@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+917738885888" class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <span class="item-label">Phone / WhatsApp</span>
+                                <span class="item-val">+91 7738885888</span>
+                            </div>
+                        </a>
+
+                        <a href="https://linkedin.com/in/furkansayyed19" target="_blank" rel="noopener noreferrer"
+                            class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <span class="item-label">LinkedIn Profile</span>
+                                <span class="item-val">linkedin.com/in/furkansayyed19</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/Furkansayyed" target="_blank" rel="noopener noreferrer"
+                            class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <span class="item-label">GitHub Repositories</span>
+                                <span class="item-val">github.com/Furkansayyed</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <span class="item-label">Location</span>
+                                <span class="item-val">Mumbai, Maharashtra, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="status-box">
+                        <div class="pulse-indicator"></div>
+                        <span><strong>Status:</strong> Actively interviewing & preparing for OSCP</span>
+                    </div>
+                </div>
+
+                <!-- Right: Interactive Message Form -->
+                <div class="contact-form-card">
+                    <h3 class="contact-card-title">Send a Direct Message</h3>
+                    <form id="contactForm" class="contact-form" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Your Name / Organization</label>
+                            <div class="input-wrap">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" name="name" required
+                                    placeholder="e.g. Alex Hunter / Acme Security">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email Address</label>
+                            <div class="input-wrap">
+                                <i class="fas fa-at"></i>
+                                <input type="email" id="email" name="email" required
+                                    placeholder="e.g. alex@securityfirm.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject / Project Scope</label>
+                            <div class="input-wrap">
+                                <i class="fas fa-tag"></i>
+                                <input type="text" id="subject" name="subject" required
+                                    placeholder="e.g. VAPT Inquiry / Job Opportunity">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <div class="input-wrap textarea-wrap">
+                                <i class="fas fa-comment-dots"></i>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Share project details, requirements, or greetings..."></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Transmit Message
+                        </button>
+
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span class="logo-bracket">&lt;</span>0x<span class="logo-name">FURKAN</span><span class="logo-bracket">
+                    /&gt;</span>
+                <p>Offensive Security Specialist · Published Quantum Researcher</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#research">Research</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Furkan Sayyed. Crafted with precision &amp; modern cyber aesthetics.</p>
+                <a href="#home" class="back-to-top" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
